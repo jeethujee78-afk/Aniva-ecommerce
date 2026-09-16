@@ -1,0 +1,6 @@
+{
+  "name": "ANIVA",
+  "description": "ANIVA — Premium Indian Fashion Marketplace. Wear the Trend. Own the Style.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
