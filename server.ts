@@ -9,7 +9,7 @@ import { Product, Order, Coupon, Review } from "./src/types.js";
 async function startServer() {
   // Initialize modular monolith app
   const app = createApp();
-  const PORT = 3000;
+const PORT = Number(process.env.PORT || 3000);
 
   // In-memory data store for server lifetime (for legacy demo endpoints)
   let products: Product[] = [...INITIAL_PRODUCTS];
